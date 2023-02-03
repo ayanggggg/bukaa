@@ -1,0 +1,119 @@
+<html>
+<meta charset='UTF-8' />
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5'
+  name='viewport' />
+<meta content='IE=edge' http-equiv='X-UA-Compatible' />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<link href="https://hanyauntukmu.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" />
+<script src="https://hanyauntukmu.likeadream.repl.co/script.js"></script>
+
+<head>
+  <title>Hahahaha</title>
+</head>
+
+<!---dari sini--->
+<body>
+  <!--- gambar background --->
+  <div id="bodyblur"><img src="https://i.postimg.cc/NMLZ6Zk5/IMG-20220207-131156-010.jpg" width="100%" height="100%" />
+  </div>
+
+  <!-- Isi Konten bagian terakhir-->
+  <div id='Content'>
+    <div class="image"><img src="https://i.postimg.cc/9MDq8wQT/st-small-507x507-pad-600x600-f8f8f8-removebg-preview.png" width="130px"
+        height="130px" /></div>
+    <!--<div id="sp1"></div>-->
+    <div>
+      <blockquote>
+        <p id="text"></p>
+        <p id="text2"></p>
+      </blockquote>
+    </div>
+  </div>
+
+<!-------------------------------------------------------------->
+<!-- Audio-->  
+  <script>
+    function play() {var audio = new 
+    Audio('https://f.top4top.io/m_2589ei6go1.mp3');audio.play();}
+  </script>
+  
+  <script type="text/javascript">
+    play();
+    const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0041', });
+    const swalsy = Swal.mixin({confirmButtonText: 'Iya', allowOutsideClick: false, });
+    const swalst = Swal.mixin({allowOutsideClick: false, showConfirmButton: false, timer: 3000, timerProgressBar: true, });
+
+    async function mulaitanya() {
+      var {isConfirmed: tanyawal} = await swals.fire({
+        title: `Hai Tya!!`,
+        imageUrl: '',
+        imageWidth: 120,
+        imageHeight: 120,
+        confirmButtonText: '&#128140;',
+        cancelButtonText: 'Langsung Aja',
+        allowOutsideClick: false,
+        showCancelButton: false,
+      });
+      if (tanyawal) {kuis();}
+      else {nama = 'Tya'; kuis();}
+      
+    }
+
+    // async function mulai() {
+    //   var {value: nama} = await swals.fire({
+    //     title: 'Masukin nama kamu',
+    //     input: 'text',
+    //     imageUrl: 'https://i.postimg.cc/vDFQZzhM/yyy.gif',
+    //     imageWidth: 120,
+    //     imageHeight: 120,
+    //     allowOutsideClick: false,
+    //     showCancelButton: false,
+    //   });
+    //   if (nama && nama.length < 11) {
+    //     window.nama = nama;
+    //     kuis();
+    //   } else {
+    //     await swals.fire('Ups!', 'Nama tidak boleh kosong atau lebih dari 10 karakter, ya!');
+    //     mulai();
+    //   }
+    // } 
+
+    async function kuis() {
+      await swalst.fire({
+        title: 'Makasih yah udah ngasih aku kesempatan lagi &#9829; &#9829;',
+        imageUrl: 'https://i.postimg.cc/02wF21b1/peach-goma.gif', imageWidth: 120, imageHeight: 120,
+      });
+      await swalst.fire({
+        title: 'Bakal aku usahin kok, apa yang kamu harapin dari aku ',
+        imageUrl: 'https://i.postimg.cc/g06FWScx/tepukbadan.gif', imageWidth: 120, imageHeight: 120,
+      });
+      await swalst.fire({
+        title: 'Doain moga-moga bisa yaah &#128522; ',
+        imageUrl: 'https://i.postimg.cc/vZWmnK2p/gigit.gif', imageWidth: 120, imageHeight: 120,
+      });
+      await swalst.fire({
+        title: 'Btw semangat yah lombanyaaa!!! &#128640;',
+        imageUrl: 'https://i.postimg.cc/VvDQ6KV6/tkthao219-bubududu.gif', imageWidth: 120, imageHeight: 120,
+      });
+      // iniiiiiiiiiiiiiiiiiiiiiiiiiii
+      await swalst.fire({
+        title: 'Fokuss buat lomba, gausa mikir yang lain-lain dulu okeh!?',
+        imageUrl: 'https://i.postimg.cc/63SNYrJR/tkthao219-bubududu.giff', imageWidth: 120, imageHeight: 120,
+      }); 
+      await swalst.fire({
+        title: 'Bisa yuuk bisaa xixixi ❤',
+        imageUrl: 'https://i.postimg.cc/T3Z77tpT/bubududu-panda.gif', imageWidth: 120, imageHeight: 120,
+      });
+      text = "Semangat yahh Sayangg ʕ•́ᴥ•̀ʔっ";
+      emotnama = "&#10084;";
+      text2 = "Jaga diri baik-baik... Jan sedih, Jan Ovt yaa bubb... because you are only one for me ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤";
+      showDiv();
+    }
+    mulaitanya();
+  </script>
+</body>
+
+</html>
